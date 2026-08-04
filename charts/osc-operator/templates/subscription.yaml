@@ -9,4 +9,3 @@ spec:
   name: sandboxed-containers-operator
   source: {{ if .Values.dev.enabled }}osc-operator-dev-catalog{{ else }}redhat-operators{{ end }}
   sourceNamespace: openshift-marketplace
-  startingCSV: sandboxed-containers-operator.v{{ .Chart.AppVersion }}

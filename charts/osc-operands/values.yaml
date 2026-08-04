@@ -1,3 +1,6 @@
+kataconfig:
+  name: kataconfig-kata
+
 confidential:
   enabled: true
 

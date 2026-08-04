@@ -1,7 +1,7 @@
 apiVersion: kataconfiguration.openshift.io/v1
 kind: KataConfig
 metadata:
-  name: kataconfig-kata
+  name: {{ .Values.kataconfig.name | default "kataconfig-kata" }}
   annotations:
     argocd.argoproj.io/sync-wave: "1"
 spec:

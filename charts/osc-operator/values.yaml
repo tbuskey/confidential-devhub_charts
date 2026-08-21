@@ -1,8 +1,7 @@
 ---
 # Override the namespace where the operator is deployed.
 # The chart always creates this namespace.
-# If not set, defaults to the Helm release namespace.
-# namespaceOverride: openshift-sandboxed-containers-operator
+namespaceOverride: openshift-sandboxed-containers-operator
 
 dev:
   # Enable development mode for the operator.

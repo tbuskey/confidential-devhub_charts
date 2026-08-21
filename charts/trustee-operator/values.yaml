@@ -4,8 +4,7 @@
 
 # Override the namespace where the operator is deployed.
 # The chart always creates this namespace.
-# If not set, defaults to the Helm release namespace.
-# namespaceOverride: trustee-operator-system
+namespaceOverride: trustee-operator-system
 
 dev:
   # Enable development mode for the operator.

@@ -17,7 +17,7 @@ OpenShift.
 
 ```bash
 helm template trustee-operator charts/trustee-operator \
-  --set namespaceOverride=trustee-operator-system | kubectl apply -f -
+  | kubectl apply -f -
 ```
 
 Wait for the operator to be ready before deploying operands.
